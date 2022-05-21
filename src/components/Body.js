@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 
 import BackspaceOutlinedIcon from "@mui/icons-material/BackspaceOutlined";
-import { ConstructionOutlined } from "@mui/icons-material";
 
 export default function Body(props) {
   const [resultValue, setResultValue] = useState([0]);
