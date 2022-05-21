@@ -1,15 +1,6 @@
 import React, { useState } from "react";
-import {
-  Box,
-  Card,
-  CardActions,
-  CardContent,
-  Button,
-  Typography,
-  Grid,
-} from "@mui/material";
-import MenuIcon from "@mui/icons-material/Menu";
-import AddToPhotosOutlinedIcon from "@mui/icons-material/AddToPhotosOutlined";
+import { Card, CardContent, Typography } from "@mui/material";
+
 import Screen from "./components/Screen";
 import Head from "./components/Head";
 import Body from "./components/Body";
