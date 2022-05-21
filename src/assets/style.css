@@ -1,0 +1,89 @@
+
+.mainCard{
+    display: flex;
+    width: 340px;
+    height: auto;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: #e0e0e0cc !important;
+}
+
+.screen {
+    height: 100px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: black;
+    font-weight: bold;
+    box-sizing: border-box;
+  }
+
+  .smallScreen{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 0 10px;
+    font-size:15pt;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: rgb(180, 180, 180);
+    font-weight: normal;
+    box-sizing: border-box;
+  }
+
+  .buttonBox {
+    width: 100%;
+    height: calc(100% - 110px);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 10px;
+  }
+
+  .miniButton {
+    Width: 23%;
+    height: 30px;
+    background-color: #f8f8f8cc;
+    border: 1px solid #f8f8f8cc;
+    color: black;
+    font-size:8pt;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 2px 2px;
+    transition: 0.3s;
+  }
+  .button {
+    Width: 23%;
+    height: 40px;
+    background-color: #f7f4f4cc;
+    border: 1px solid #f7f4f4cc;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 2px 2px;
+    transition: 0.3s;
+  }
+
+  .button2 {
+    background-color: #fcfcfc;
+    border: 1px solid #fcfcfc;
+  }
+  .button:hover, .miniButton:hover  {
+    background-color: #a7a7a7;
+    border: 1px solid rgb(172, 168, 168);
+
+  }
+
